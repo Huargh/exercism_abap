@@ -1,0 +1,14 @@
+CLASS zcl_hello_world DEFINITION PUBLIC.
+  PUBLIC SECTION.
+    METHODS hello RETURNING VALUE(result) TYPE string.
+ENDCLASS.
+
+
+
+CLASS ZCL_HELLO_WORLD IMPLEMENTATION.
+
+
+  METHOD hello.
+    result = 'Hello, World!'.
+  ENDMETHOD.
+ENDCLASS.
